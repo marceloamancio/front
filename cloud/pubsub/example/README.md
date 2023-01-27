@@ -8,3 +8,7 @@
 * [20 Pub/Sub Interview Questions and Answers](https://climbtheladder.com/pub-sub-interview-questions/)
 
 * [Examples Python pub/sub](https://github.com/googleapis/python-pubsub)
+
+# Command Line
+* [Publish and receive messages in Pub/Sub by using a client library](https://cloud.google.com/pubsub/docs/publish-receive-messages-client-library)
+* [Publish and receive messages in Pub/Sub by using the gcloud CLI](https://cloud.google.com/pubsub/docs/publish-receive-messages-gcloud)
