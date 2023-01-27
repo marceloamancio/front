@@ -1,7 +1,20 @@
 import os
 import sys
 from pathlib import Path
+
+import argparse
 from google.cloud import pubsub_v1
+
+from enum import auto
+from strenum import StrEnum
+
+
+class Operation(StrEnum):
+    CREATE_TOPIC = auto()
+    SEND_MESSAGE = auto()
+    LISTEN_MESSAGE = auto()
+
+
 
 # TODO(developer)
 # project_id = "your-project-id"
@@ -27,10 +40,31 @@ def get_publisher():
     return pubsub_v1.PublisherClient()
 
 
-if __name__ == "__main__":
-    print("Hello World!",project_id )
-    topic_name = "newt"
-    publisher = get_publisher()
-    create_a_topic(publisher, topic_name)
+def get_parser(h):
+    parser = argparse.ArgumentParser(add_help=h)
+    parser.add_argument("--operation", help="Operation", required=True)
+    parser.add_argument("--topic-name", help="Topic Name")
+    return parser
 
-    print("==Hello World!")
+if __name__ == "__main__":
+    p = get_parser(h=True)
+    args = p.parse_args()
+
+    try:
+        print(args.operation)
+        assert args.operation in Operation.__members__.keys() 
+    except:
+        print(f"Error: Operation --'{args.operation}' not in {list(Operation.__members__.keys())}")
+
+    publisher = get_publisher()
+    
+    if args.operation == 'CREATE_TOPIC':
+        create_a_topic(publisher, args.topic_name )
+    
+
+    # print("Hello World!",project_id )
+    # topic_name = "newt"
+    # publisher = get_publisher()
+    # create_a_topic(publisher, topic_name)
+
+    # print("==Hello World!")
