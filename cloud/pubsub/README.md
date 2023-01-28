@@ -16,6 +16,18 @@ Pub/sub stands for "publish/subscribe." It is a messaging pattern where publishe
 * More modularized, rubust and secure software components
 * Improve code quality
 * Have a better view of the information flow.
+* Allow real-time communication as it messages subscribers instanteneously. Ideal choice for near real-time communication.
+* Not dependent on programming language. Allow different languages to communicate. Easy integration with external systems.
+* Easir to test. Test by module. 
+
+# Disavantages
+* Bring complexity to smallr systems
+* Not good for audio or video.
+
+# Applications
+* IoT: Publish sensor information which will be notified to the user.
+* 
+
 
 
 
