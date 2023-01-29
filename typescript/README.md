@@ -14,5 +14,5 @@
 * Tutorial C: [TypeScript - Aprendendo Junto ](https://www.youtube.com/watch?v=rCKvrhLRFLE&list=PL62G310vn6nGg5OzjxE8FbYDzCs_UqrUs&index=4)
 
 # Javascript DOM
-* [JavaScript DOM Tutorial - class 4](https://www.youtube.com/watch?v=JlgLDfINXvY&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V&index=4)
+* [JavaScript DOM Tutorial - class 6](https://www.youtube.com/watch?v=YIG2_UB-C7o&list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V&index=6)
 

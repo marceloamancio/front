@@ -21,3 +21,9 @@ for (i = 0; i< titles.length; i++){
 }
 ```
 
+# The query selector [CSS Selector](https://www.youtube.com/watch?v=BD24Yno0QeU&list=PLs2iKUAvtzYyuuc_2OYhH223guSW8e0c-)
+* ``` const wrap = document.querySelector('#wrapper') ```
+* const wrap = document.querySelector('#book-list li:nth-child(2) .name');  // '#' --> class;  '<li>' --> li;  '.' --> .class
+* ``` const wrap = document.querySelectorAll('#book-list li .name');  ``` // receives all elements instead of one
+* node.textContent // to get text content from a node or element.
+* document.querySelector("#book-list").innerHTML = "<h2>hey</h2> // changing the html content
