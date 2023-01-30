@@ -1,4 +1,17 @@
 
+# To Learn
+* Vertex AI
+* App Engine
+* Compute Engine
+* Cloud Run
+* Storage Bucket
+* Cloud Build
+* Big Query
+* Dataflow
+* Pulumi
+* UDF
+* CI/CD
+
 
 # Installation problem in mac m1
 
