@@ -1,0 +1,3 @@
+
+dev:
+	live-server public

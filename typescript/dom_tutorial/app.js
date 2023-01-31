@@ -27,7 +27,7 @@ function example03(){
     //const wrap = document.querySelector('#book-list'); // li:nth-child(2) .name');
     const books = document.querySelectorAll('#book-list li .name'); // li:nth-child(2) .name');
 
-    //node list
+    //node l ist
     books.forEach(function(book){
         //book.textContent = ':: ' +  book.textContent + ' ::';
         book.textContent += ' (book title)';
