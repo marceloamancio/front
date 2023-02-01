@@ -1,6 +1,6 @@
 # Course
 * [Webdesign](https://youtu.be/B-ytMSuwbf8?t=1228)
-* Stopped here: 01:03:11 (Creating a color palette for our project](https://www.youtube.com/watch?v=B-ytMSuwbf8&t=3791s)
+* Stopped here: 01:30 (https://www.youtube.com/watch?v=B-ytMSuwbf8&t=5471s)
 
 # Links
 * Figma.com for wireframes
@@ -48,3 +48,21 @@
 * a monochromatic will give you the least contrast
 * Use Adobe Colors to explore color themes or create your own.  
 
+# Creating project
+* When starting a design is way easier to start with colors
+* Chose primary and secondary colors
+* Create black that is not 100% black for font
+* For font mix the black with the primary color
+* Create a gradient of black
+* Be sure that contrast is enough
+
+# Typography
+* How to get the right attributes?
+* https://elements.envato.com
+* google fonts: https://fonts.google.com
+* adobe fonts: https://fonts.adobe.com
+* Serif font: sophistication
+* Sans serif: modern and trust
+* font roles and attributes: size, weight, height
+* Single typefaces vs multiple typefaces 
+* Typographic scales
