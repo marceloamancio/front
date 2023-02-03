@@ -22,3 +22,13 @@ p {
     text-decoration: underline;
 }
 */
+
+span{
+    color: red;
+    font-size: 44px;
+}
+
+span{
+    color: blue;
+}
+

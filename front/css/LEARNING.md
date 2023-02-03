@@ -48,3 +48,5 @@
 * Classes: can be used multiple times in a page
 * IDs: can be used only once per page - they are unique!
 
+# Cascade and CSS Conflicts
+* Opposite rules
