@@ -1,5 +1,32 @@
 
 
+h1 {
+    font-size: 25px;
+    color: red;
+}
+
+
+div {
+    font-size: 20px; 
+    color: blue;
+}
+
+body {
+    font-size: 50px;
+    color: green;
+}
+
+
+h1 {
+    font-size: 25px;
+    color: black;
+}
+
+
+
+/*
+
+
 p {
     font-size: 44px; 
     //position: absolute;
@@ -13,7 +40,7 @@ p {
     font-size: 15px; 
     color: red;
 }
-
+*/
 /* Style all your p tags */
 /*
 #header p {
@@ -23,6 +50,7 @@ p {
 }
 */
 
+/*
 span{
     color: red;
     font-size: 44px;
@@ -32,3 +60,4 @@ span{
     color: blue;
 }
 
+*/

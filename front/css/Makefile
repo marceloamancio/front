@@ -1,6 +1,6 @@
 
 PORT?=8003
 
-serve:
+server:
 	python -m http.server $(PORT)
 

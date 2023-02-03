@@ -50,3 +50,19 @@
 
 # Cascade and CSS Conflicts
 * Opposite rules
+
+# Inheritance Tree
+# Conflicts & Cascade
+* Overwriting is limited: keeps the most specific
+```
+#main-content p {color: black;} -->this wins - it's more specific
+{color: black;}
+```
+* How specific?
+- ID's: 100 points
+- Classes 10 points
+- Elements 1 point
+
+
+
+
